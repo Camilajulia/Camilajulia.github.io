@@ -1,4 +1,4 @@
-root{
+:root{
     --cor-primaria:rgba(118, 120, 122, 0.2);
     --cor-secundaria:#1717bd;
     --cor-clara:#b4eff6;
@@ -18,7 +18,7 @@ body {
     color:rgb(26, 25, 25);
     padding: 1rem;
     box-shadow:var(--cor-primaria);
-    background: linear-gradient(135deg,var(--cor-secundaria),var(--cor-clara));
+    background: linear-gradient(360deg,var(--cor-clara),var(--cor-secundaria),var(--cor-clara));
     line-height:2rem;
 }
 
